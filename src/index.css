@@ -21,7 +21,7 @@ body {
   font-size: 10rem;
   display: flex;
 }
-@media (min-width: 740px) {
+@media (min-width: 1080px) {
   .clock {
     font-size: 15rem;
   }

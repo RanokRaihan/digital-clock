@@ -14,7 +14,17 @@ const Clock = () => {
   const tick = () => {
     setTime(new Date());
   };
-  return <div className="clock">{time.toLocaleTimeString()}</div>;
+  return (
+    <div className="clock">
+      <p>
+        {time.toLocaleString("en-US", {
+          hour: "numeric",
+          minute: "numeric",
+          hour12: true,
+        })}
+      </p>
+    </div>
+  );
 };
 
 export default Clock;

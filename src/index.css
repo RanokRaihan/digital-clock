@@ -18,7 +18,13 @@ body {
   width: 100%;
 }
 .clock {
-  font-size: 7rem;
+  font-size: 10rem;
+  display: flex;
+}
+@media (min-width: 740px) {
+  .clock {
+    font-size: 15rem;
+  }
 }
 
 .fullscreen {

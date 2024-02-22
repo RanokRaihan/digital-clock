@@ -1,5 +1,20 @@
+import { useEffect, useState } from "react";
+
 const Clock = () => {
-  return <div className="clock">10:22 PM</div>;
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const timerID = setInterval(() => tick(), 1000);
+
+    return () => {
+      clearInterval(timerID);
+    };
+  }, []);
+
+  const tick = () => {
+    setTime(new Date());
+  };
+  return <div className="clock">{time.toLocaleTimeString()}</div>;
 };
 
 export default Clock;

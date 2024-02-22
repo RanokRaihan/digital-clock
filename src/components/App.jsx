@@ -4,6 +4,8 @@ const App = () => {
   const handleFullscreen = () => {
     if (!document.fullscreenElement) {
       document.body.requestFullscreen();
+
+      screen.orientation.lock("landscape-primary");
     } else {
       document.exitFullscreen();
     }

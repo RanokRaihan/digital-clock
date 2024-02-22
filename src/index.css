@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "anta", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container {
+  width: 100%;
+}
+.clock {
+  font-size: 10rem;
+}
+
+.fullscreen {
+  background: none;
+  color: #fff;
+  border: none;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}

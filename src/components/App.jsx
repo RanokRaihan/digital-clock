@@ -1,3 +1,4 @@
+import expand_solid from "../assets//expand-solid.svg";
 import Clock from "./Clock";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
     <div className="clock-container">
       <Clock />
       <button className="fullscreen" onClick={handleFullscreen}>
-        Full screen
+        <img className="expand-icon" src={expand_solid} alt="" />
       </button>
     </div>
   );

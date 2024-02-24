@@ -18,10 +18,16 @@ body {
   width: 100%;
 }
 .clock {
-  font-size: 10rem;
+  font-size: 5rem;
   display: flex;
 }
-@media (min-width: 1080px) {
+@media (min-width: 640px) {
+  .clock {
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 1024px) {
   .clock {
     font-size: 15rem;
   }
@@ -34,4 +40,8 @@ body {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
+}
+.expand-icon {
+  width: 35px;
+  height: 35px;
 }

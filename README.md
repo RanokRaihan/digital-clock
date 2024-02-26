@@ -1,9 +1,29 @@
-# React + Vite
+# Digital Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple digital clock application designed to display the current time in a clear and easy-to-read format. It provides features such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# digital-clock
+- Displaying the current time in hours, minutes, and seconds.
+- Option to toggle between 12-hour and 24-hour formats.
+- Background color customization.
+
+## Features
+
+### 1. Display Current Time
+
+The app displays the current time accurately using the device's system time.
+
+### 2. 12-hour and 24-hour Format
+
+Users can choose between a 12-hour or 24-hour time format according to their preference.
+
+### 3. Background Color Customization
+
+Users can customize the background color of the clock display to suit their preferences or match their device theme.
+
+## Installation
+
+To install the Digital Clock app, follow these steps:
+
+1. Clone the repository to your local machine:
